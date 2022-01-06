@@ -1,5 +1,5 @@
 {
-    "name": "barak-michaeli/tasks-management",
+    "name": "barak-michaeli/tasks-backoffice",
     "type": "project",
     "description": "Backoffice for tasks management",
     "keywords": ["framework", "laravel"],
