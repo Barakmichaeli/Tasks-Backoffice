@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "barak-michaeli/tasks-management",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Backoffice & Tasks Management",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
