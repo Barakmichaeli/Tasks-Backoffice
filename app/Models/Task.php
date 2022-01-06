@@ -59,7 +59,7 @@ class Task extends Model
      * @throws Base
      */
     public function checkBeforeDelete() {
-        if ($this->ddate < strtotime(sprintf("+%s days", self::DELETE_MIN_DUE_DATE_DAYS))) {
+        if ($this->ddate && $this->ddate < strtotime(sprintf("+%s days", self::DELETE_MIN_DUE_DATE_DAYS))) {
             $ex = new Base();
             $ex->setHttpErrorCode(409);
             $ex->setDescription(sprintf("Task due date is less then %s days", self::DELETE_MIN_DUE_DATE_DAYS));
